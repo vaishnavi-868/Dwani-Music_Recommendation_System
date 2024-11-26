@@ -13,7 +13,7 @@ public class MusicManagementSystem {
     public static void main(String[] args) {
         try {
             // Establish the database connection
-            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/dhwani", "root", "Pallu@vaishu572");
+            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/dhwani", "root", "root");
 
             // Create frame
             JFrame frame = new JFrame("Music Management System");
